@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1523035161 source:c:\users\kt\desktop\cos\funkcje\main.cpp
+	<iostream>
+	"../../biblio.h"
+
+1523035272 c:\users\kt\desktop\biblio.h
+	<math.h>
+
