@@ -4,18 +4,21 @@ using namespace std;
 
 int main()
 {
-int a,b;
+int a,b,h;
 
-cin >> a >> b;
+cin >> a >> b >> h;
 
-cout << dodawanie(a,b)<< endl;
+cout << volume_cuboid(a,b,h)<< endl;
 
-cout << pierwiastek(a) << endl;
+cout << element(a) << endl;
 
-cout << liczba_pierwsza(a) << endl;
+cout << squaring(a) << endl;
 
-cout << liczba_doskonala(a) << endl;
+cout << prime_number(a) << endl;
 
+cout << perfect_number(a) << endl;
+    
+cout << deltoid_field(a) << endl;
 
     return 0;
 }
