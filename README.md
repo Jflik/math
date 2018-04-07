@@ -1,4 +1,4 @@
-**Mymath** 
+**biblio** 
 
 **1. volume of cuboid. This function counts the volume of a cuboid, a-is lengh of one side, b-is lengh of seconf side, h-is hight of a cuboid.**  
         int volume_cuboid(int a, int b, int h)
