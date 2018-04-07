@@ -41,8 +41,8 @@ cin >> 4
 4.Prime number. This function tells you if number you have enterd is Prime number. a-is number you are cheking.
 If program schows 1-it means the number is Prime number, if 0-it means it is not a Prime number.
 
-int Prime number(int a)
-{
+                int Prime number(int a)
+        {
     int licznik=0;
     for(int i=1; i<=a ;i++)
     {
@@ -59,7 +59,7 @@ int Prime number(int a)
     {
         return 0;
     }
-}
+        }
 
 example:
 cin >> 11
@@ -70,8 +70,8 @@ program schows
 5.Perfect number. This function tells you if number you have enterd is perfect number. a-is number you are cheking.
 If program schows 1-it means the number is perfect number, if 0-it means it is not a perfect number.
 
-int perfect number(int a)
-{
+        int perfect number(int a)
+        {
      int licznik=0;
     for(int i=1; i<a ;i++)
     {
@@ -88,7 +88,7 @@ int perfect number(int a)
     {
         return 0;
     }
-}
+        }
 
 example 
 cin >> 6
@@ -100,10 +100,10 @@ program schows
 6.Deltoid field. This function gives you field of deltoid. a-is one diagonal of Deltoid, b is second diagonal of Deltoid.
 
 
-int deltoid field(int  a, int b)
-{
-    return (a*b)/2;
-}
+        int deltoid field(int  a, int b)
+        {
+           return (a*b)/2;
+        }
 
 example
 cin >> 3 >> 4
