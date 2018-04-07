@@ -1,21 +1,20 @@
 #include<math.h>
 
-int dodawanie(int a, int b)
+int volume_cuboid(int a, int b, int h)
 {
-    return a+b;
+    return a*b*h;
 }
-
-double pierwiastek(double a)
+double element(double a)
 {
     return pow(a,0.5);
 }
 
-int potegowanie(int a)
+int squaring(int a)
 {
     return pow(a,2);
 }
 
-int liczba_pierwsza(int a)
+int prime_number(int a)
 {
     int licznik=0;
     for(int i=1; i<=a ;i++)
@@ -35,7 +34,7 @@ int liczba_pierwsza(int a)
     }
 }
 
-int liczba_doskonala(int a)
+int perfect_number(int a)
 {
      int licznik=0;
     for(int i=1; i<a ;i++)
@@ -54,3 +53,9 @@ int liczba_doskonala(int a)
         return 0;
     }
 }
+
+int deltoid_field(int a, int b) 
+{
+    return (a*b)/2; 
+}
+
