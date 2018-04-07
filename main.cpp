@@ -18,7 +18,7 @@ cout << prime_number(a) << endl;
 
 cout << perfect_number(a) << endl;
     
-cout << deltoid_field(a) << endl;
+cout << deltoid_field(a,b) << endl;
 
     return 0;
 }
