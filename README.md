@@ -90,7 +90,7 @@ If program schows 1-it means the number is perfect number, if 0-it means it is n
     }
         }
 
-example 
+example:
 cin >> 6
 
 program schows
@@ -105,7 +105,7 @@ program schows
            return (a*b)/2;
         }
 
-example
+example:
 cin >> 3 >> 4
 
 program schows
